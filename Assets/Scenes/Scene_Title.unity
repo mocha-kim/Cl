@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 1661977168}
   - component: {fileID: 1661977167}
   m_Layer: 5
-  m_Name: Title_UI
+  m_Name: UICanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1226,7 +1226,7 @@ GameObject:
   - component: {fileID: 1852097182}
   - component: {fileID: 1852097183}
   m_Layer: 0
-  m_Name: Title_logic
+  m_Name: TitleLogic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
