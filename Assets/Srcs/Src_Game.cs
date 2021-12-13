@@ -7,6 +7,7 @@ public class Src_Game : MonoBehaviour
 {
     public Text stageVal, moneyVal;
     public Text contextA, contextE, contextB;
+    public GameObject background;
     public GameObject[] stageImg = new GameObject[4];
     int stage, money;
     int ability, employee, building;
@@ -55,7 +56,7 @@ public class Src_Game : MonoBehaviour
 
     public void Press_Clicker()
     {
-
+        background.GetComponent<Src_Background>().Float_IncomeText();
         money += ability + employee + building;
         Update_Text();
     }
@@ -120,5 +121,10 @@ public class Src_Game : MonoBehaviour
                     break;
             }
         }
+    }
+
+    public int Get_Income()
+    {
+        return ability + employee + building;
     }
 }
